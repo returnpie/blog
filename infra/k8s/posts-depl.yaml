@@ -17,8 +17,8 @@ spec:
           image: returnpie/posts
           resources:
             limits:
-              memory: "128Mi"
-              cpu: "500m"
+              memory: "64Mi"
+              cpu: "250m"
 ---
 apiVersion: v1
 kind: Service
